@@ -1,0 +1,19 @@
+ vi /usr/local/nginx/conf/nginx.conf   修改数据
+
+  mkdir www  创建站点存放位置
+   cd /www/
+
+ 1048  mkdir vhost1  第一个站点的存放位置
+ 1049  cd vhost1/
+
+
+
+ cd /usr/local/nginx/conf/conf.d/增加虚拟配置
+ server {
+        listen 8093;
+        server_name  bbs.luo.com;
+        location / {
+            root   /www/vhost3;
+            index  index.html index.htm;
+        }
+    }
