@@ -1,3 +1,4 @@
+              nginx 安装 https://zhuanlan.zhihu.com/p/128579141
 安装依赖  yum -y install gcc pcre pcre-devel zlib zlib-devel openssl openssl-devel
 创建用户 useradd -s /sbin/nologin nginx 
 1下载  wget http://nginx.org/download/nginx-1.14.0.tar.gz
